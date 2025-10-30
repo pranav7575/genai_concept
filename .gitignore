@@ -1,0 +1,78 @@
+// ...existing code...
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+
+# Data, models, checkpoints
+data/
+datasets/
+raw_data/
+processed_data/
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.h5
+
+# Experiment tracking
+mlruns/
+wandb/
+*.wandb
+
+# Logs and outputs
+logs/
+*.log
+nohup.out
+output/
+results/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variable files
+.env
+.env.*
+
+# Misc
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
